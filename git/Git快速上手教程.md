@@ -127,9 +127,11 @@ Git的工作区域主要包括**工作目录（Working Directory）、暂存区�
 
 2. 在当前页面上，你可能对`…or push an existing repository from the command line`（或从命令行推送现有仓库）这部分感兴趣。你应该看到本节中列出的两行代码。**复制整个第一行，将其粘贴到命令行中，然后按回车键**。命令应该看起来像是这样的：
 ```BASH
-   git remote add origin git remote add origin https://github.com/CubicPancake0w0/headerofsite_test.git
+   git remote add origin https://github.com/CubicPancake0w0/headerofsite_test.git
 ```
 >注意，此命令（还有后续命令）需要在本地仓库目录下执行，即在f:\BTZHprojs\BTZH_headertest目录下执行。
+>如果找不到后面的链接地址，可在仓库主页找到`Code -> HTTPS`链接，复制链接地址，然后将其粘贴到命令行中。
+![clonehttps](images/17.png)
 
 3. 接下来，键入以下两个命令，每个命令之后按回车。这些命令是将代码上传到仓库，并要求 Git 管理这些文件的准备工作。
 ```BASH
@@ -137,7 +139,7 @@ Git的工作区域主要包括**工作目录（Working Directory）、暂存区�
     git commit -m 'adding my files to my repository'
 ```
 
-4. 最后，将代码推送到 GitHub，通过你正在访问的 GitHub 网页，然后输入我们在“…or push an existing repository from the command line”（或从命令行推送现有仓库）部分看到的两个命令中的第二个命令：
+1. 最后，将代码推送到 GitHub，通过你正在访问的 GitHub 网页，然后输入我们在“…or push an existing repository from the command line”（或从命令行推送现有仓库）部分看到的两个命令中的第二个命令：
 ```BASH
    git push -u origin master
 ```
